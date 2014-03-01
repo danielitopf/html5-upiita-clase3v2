@@ -4,7 +4,15 @@
         <meta charset="UTF-8"/>
         <title>JavaScript</title>
         <script>
-         
+         	function pintarNombre(){
+         		var nombre = prompt("Proporcione su Nombre ");
+         		var apellidos = prompt("Proporcione sus Apellidos ");
+         		var nombreCompleto = nombre + " " + apellidos;
+         		document.write("<p>" + nombreCompleto + "</p>");
+         	}
+         	
+         	pintarNombre();
+         	
         </script>
     </head>
     <body>
